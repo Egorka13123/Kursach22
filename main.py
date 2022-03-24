@@ -276,7 +276,7 @@ def plot_hs_stage_t(x_lim,y_lim):
     plt.plot([point_0.s,point_1.s],[point_0.h,point_1.h],'bo-')
     plt.plot([point_1.s,point_2t.s],[point_1.h,point_2t.h], 'ro-')
     plt.plot([point_1.s,point_1.s],[point_1w.h, point_1.h],'ro-')
-    
+
     plt.plot([point_1.s, point_2.s], [point_1.h, point_2.h], 'bo-')
     plt.plot([point_2.s, point_3.s], [point_2.h, point_3.h], 'bo-')
 
